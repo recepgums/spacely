@@ -1,1024 +1,961 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-    <!-- Libs CSS -->
-    <link rel="stylesheet" href="../assets/libs/dropzone/dist/min/dropzone.min.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/svg" href="../assets/images/spacely-logo.svg">
 
 
 
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="../assets/css/theme.min.css">
-
-    <title>Spacely</title>
-  </head>
-
-  <body>
-     <div class="">
-       <nav
-         class="navbar navbar-expand-lg py-2 navbar-light bg-white"
-       >
-         <div class="container-fluid">
-           <a href="../index.html"
-             ><img
-               src="../assets/images/spacely-logo.svg"
-               alt=""/></a>
-           <button
-             class="navbar-toggler collapsed"
-             type="button"
-             data-toggle="collapse"
-             data-target="#navbarCollapse"
-             aria-controls="navbarCollapse"
-             aria-expanded="false"
-             aria-label="Toggle navigation"
-           >
-             <span class="icon-bar top-bar mt-0"></span>
-             <span class="icon-bar middle-bar"></span>
-             <span class="icon-bar bottom-bar"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarCollapse">
-             <ul class="navbar-nav ml-lg-auto">
-               <li class="nav-item dropdown">
-                 <a
-                   class="nav-link dropdown-toggle"
-                   href="#"
-                   id="navbarHome"
-                   role="button"
-                   data-toggle="dropdown"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                 >
-                   Home
-                 </a>
-                 <div class="dropdown-menu" aria-labelledby="navbarHome">
-                   <a class="dropdown-item" href="../index.html">Homepage One</a>
-                   <a class="dropdown-item" href="../pages/index-2.html">Homepage Two</a>
-                 </div>
-               </li>
-
-               <li class="nav-item dropdown">
-                 <a
-                   class="nav-link dropdown-toggle"
-                   href="#"
-                   id="navbarListing"
-                   role="button"
-                   data-toggle="dropdown"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                 >
-                   Listing
-                 </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarListing">
-                  <li> <a class="dropdown-item" href="../pages/listing-grid-view.html">
-                     Listing List + Grid</a></li>
-
-                   <li><a class="dropdown-item" href="listing-list-view.html">
-                     Listing List View</a></li>
-
-                   <li><a class="dropdown-item" href="../pages/listing-map-view.html">
-                     Listing Map View</a></li>
-
-                  <li><a class="dropdown-item" href="../pages/listing-with-map.html">
-                     Listing with half Map</a></li>
-
-                   <li><a class="dropdown-item" href="../pages/listing-location.html">
-                     Listing Location</a></li>
-
-                   <a class="dropdown-item" href="../pages/listing-categories.html">
-                     Listing Category</a
-                   >
-
-                  <li> <a class="dropdown-item" href="../pages/listing-single.html">
-                     Listing Single</a></li>
-                   </ul>
-               </li>
-               <li class="nav-item dropdown">
-                 <a
-                   class="nav-link dropdown-toggle"
-                   href="#"
-                   id="navbarPages"
-                   role="button"
-                   data-toggle="dropdown"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                 >
-                   Pages
-                 </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarPages">
-                     <li>
-                         <a class="dropdown-item" href="../pages/about.html">
-                             About us</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/pricing.html">
-                             Pricing</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/register-page.html">
-                             Register</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/login-page.html">
-                             Login</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/inquiry-form.html">
-                             Inquiry Form</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/forget-password-page.html">
-                             Forgot Password</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/reset-password-page.html">
-                             Reset Password</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/error-page.html">
-                             404 Error</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/contact.html">
-                             Contact</a>
-                     </li>
-
-                 </ul>
-               </li>
-               <li class="nav-item dropdown">
-                 <a
-                   class="nav-link dropdown-toggle"
-                   href="#"
-                   id="navbarBlog"
-                   role="button"
-                   data-toggle="dropdown"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                 >
-                   Blog
-                 </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarBlog">
-                     <li>
-                         <a class="dropdown-item" href="../pages/blog.html">
-                             Blog List</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/blog-thumbnail.html">
-                             Blog Thumbnail</a>
-                     </li>
-                     <li>
-                         <a class="dropdown-item" href="../pages/blog-single.html">
-                             Blog Single</a>
-                     </li>
-                 </ul>
-               </li>
-
-               <li class="nav-item">
-                 <a class="nav-link" href="../docs/index.html">
-                   Docs
-                 </a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="../dashboard/dashboard-overview.html">
-                   Dashboard
-                 </a>
-               </li>
-             </ul>
-             <div class="ml-lg-4 d-none d-lg-block">
-               <a href="../pages/login-page.html" class="btn btn-outline-primary mr-2">Login</a>
-               <a href="../pages/inquiry-form.html" class="btn btn-secondary">List A Space</a>
-             </div>
-           </div>
-         </div>
-       </nav>
-     </div>
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="../assets/libs/dropzone/dist/min/dropzone.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
 
 
-    <!-- pageheader start -->
-    <div
-      class="pageheader"
-      style="
-        background: url(../assets/images/pageheader-img.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      "
-    >
-      <div class="container">
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="../assets/css/custom.css">
+  <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+
+  <title>Spacely</title>
+
+  <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg py-2 navbar-light bg-white">
+  <div class="container-fluid">
+    <a href="../index.html"><img src="../assets/images/spacely-logo.svg" alt="" /></a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar top-bar mt-0"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarHome" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Home
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarHome">
+            <a class="dropdown-item" href="../index.html">Homepage One</a>
+            <a class="dropdown-item" href="../pages/index-2.html">Homepage Two</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarListing" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Listing
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarListing">
+            <li> <a class="dropdown-item" href="../pages/listing-grid-view.html">
+              Listing List + Grid</a></li>
+
+            <li><a class="dropdown-item" href="../pages/listing-list-view.html">
+              Listing List View</a></li>
+
+            <li><a class="dropdown-item" href="../pages/listing-map-view.html">
+              Listing Map View</a></li>
+
+            <li><a class="dropdown-item" href="../pages/listing-with-map.html">
+              Listing with half Map</a></li>
+
+            <li><a class="dropdown-item" href="../pages/listing-location.html">
+              Listing Location</a></li>
+
+            <a class="dropdown-item" href="../pages/listing-categories.html">
+              Listing Category</a>
+
+            <li> <a class="dropdown-item" href="../pages/listing-listing-single.html">
+              Listing Single</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarPages" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pages
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarPages">
+            <li>
+              <a class="dropdown-item" href="../pages/about.html">
+                About us</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/pricing.html">
+                Pricing</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/register-page.html">
+                Register</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/login-page.html">
+                Login</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/inquiry-form.html">
+                Inquiry Form</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/forget-password-page.html">
+                Forgot Password</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/reset-password-page.html">
+                Reset Password</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/error-page.html">
+                404 Error</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/contact.html">
+                Contact</a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarBlog" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarBlog">
+            <li>
+              <a class="dropdown-item" href="../pages/blog.html">
+                Blog List</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/blog-thumbnail.html">
+                Blog Thumbnail</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="../pages/blog-listing-single.html">
+                Blog Single</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../docs/index.html">
+            Docs
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../dashboard/dashboard-overview.html">
+            Dashboard
+          </a>
+        </li>
+      </ul>
+      <div class="ml-lg-4 d-none d-lg-block">
+        <a href="../pages/login-page.html" class="btn btn-outline-primary mr-2">Login</a>
+        <a href="../pages/inquiry-form.html" class="btn btn-secondary">List A Space</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<main>
+  <!-- The Modal -->
+  <div id="imgViewModal" class="modal">
+    <div class="shadow"></div>
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+
+  <div id="modalOrder" class="modal">
+    <div class="shadow"></div>
+    <!-- <span class="close">&times;</span> -->
+    <div class="modalContent">
+      <div
+              aria-modal="true"
+              role="dialog"
+              tabindex="-1"
+              aria-labelledby="dialog__sales-rights-warning-modal-heading"
+              class="vst-dialog-component"
+              data-testid="dialog"
+              id="sales-rights-warning-modal"
+              data-reach-dialog-content=""
+      >
+        <div class="dialog-header null">
+          <h2 id="dialog__sales-rights-warning-modal-heading">
+            Confirm Add to Cart
+          </h2>
+          <button class="close close-button">
+          <span
+                  style="
+              border: 0px;
+              clip: rect(0px, 0px, 0px, 0px);
+              height: 1px;
+              margin: -1px;
+              overflow: hidden;
+              padding: 0px;
+              position: absolute;
+              width: 1px;
+              white-space: nowrap;
+              overflow-wrap: normal;
+            "
+          >Close</span
+          ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="times"
+                  class="svg-inline--fa fa-times fa-w-11"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 352 512"
+          >
+            <path
+                    fill="currentColor"
+                    d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            ></path>
+          </svg>
+          </button>
+        </div>
+        <p>
+          Due to publisher sales restrictions, this content can only be purchased
+          with a valid US billing address.
+        </p>
+        <div class="row u-push-half--bottom">
+          <button
+                  id="addToCartBtn"
+                  class="vst-btn--action vst-btn--transparent vst-btn--orange add_to_cart vst-btn--large-full-width u-soft-half u-weight--bold"
+                  data-category="Pricing Panel"
+          >
+            Add to Cart
+          </button>
+        </div>
         <div class="row">
-          <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
-            <div class="pageheader-caption">
-              <h1 class="pageheader-caption-title">Layout Grid & List</h1>
-              <p class="pageheader-caption-text">
-                Change your layout in grid and list view example using bootstrap
-                4. Design elements using Bootstrap, javascript, css, and html.
-              </p>
+          <button
+                  id="cancelBtnCart"
+                  aria-label="Close"
+                  class="vst-btn--orange-outline vst-btn--action vst-btn--large-full-width"
+                  data-category="Pricing Panel"
+                  type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>Social Psychology <span># Edition</span></h1>
+  <div class="item_content_container">
+    <div class="item_content_info">
+      <div class="preview">
+        <div class="item_content_img_container">
+          <img id="bookImg" src="https://covers.vitalbook.com/vbid/9780357122822/width/200" alt="">
+          <button class="overflow"><img src="https://www.vitalsource.com/packs/static/PDP/ProductImageZoom/zoom-icon-de3abf75f882b513020e.png" alt=""></button>
+        </div>
+        <div style="display: flex; justify-content: space-between;align-items: center;">
+          <div class="social-network">
+            <div class="social-links">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" style="color: #333;" width="32" height="32px"
+                               viewBox="0 0 24 24">
+                <path fill="currentColor"
+                      d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-6.54 4.09c-.65.41-1.47.41-2.12 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44z" />
+              </svg></a>
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                <path fill="#1877F2"
+                      d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.307 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.347-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.958 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445" />
+                <path fill="#FFF"
+                      d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825" />
+              </svg></a>
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128">
+                <path fill="#1d9bf0"
+                      d="M114.896 37.888c.078 1.129.078 2.257.078 3.396c0 34.7-26.417 74.72-74.72 74.72v-.02A74.343 74.343 0 0 1 0 104.21c2.075.25 4.16.375 6.25.38a52.732 52.732 0 0 0 32.615-11.263A26.294 26.294 0 0 1 14.331 75.09c3.937.76 7.993.603 11.857-.453c-12.252-2.475-21.066-13.239-21.066-25.74v-.333a26.094 26.094 0 0 0 11.919 3.287C5.5 44.139 1.945 28.788 8.913 16.787a74.535 74.535 0 0 0 54.122 27.435a26.277 26.277 0 0 1 7.598-25.09c10.577-9.943 27.212-9.433 37.154 1.139a52.696 52.696 0 0 0 16.677-6.376A26.359 26.359 0 0 1 112.92 28.42A52.227 52.227 0 0 0 128 24.285a53.35 53.35 0 0 1-13.104 13.603z" />
+              </svg></a>
+            </div>
+            <div class="pointer-arrow"></div>
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                      d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7c0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3a3 3 0 0 0-3-3a3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66c0 1.61 1.31 2.91 2.92 2.91c1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z" />
+              </svg>
+              <span>Share</span>
+            </button>
+
+          </div>
+          <button class="btn-fav">
+            <!-- Filled star👇 -->
+            <!-- <i class="fa-solid fa-star"></i> -->
+            <!-- Empty star👇 -->
+            <i class="fa-regular fa-star"></i>
+            <span>Favorite</span>
+          </button>
+        </div>
+      </div>
+      <div class="content_data">
+        <div class="p_container">
+          <p>Author(s)</p>
+          <p class="p_content">Saul Kassin; Steven Fein; Hazel Rose Markus</p>
+        </div>
+        <div class="p_container">
+          <p>Publisher</p>
+          <p class="p_content">Cengage Learning</p>
+        </div>
+        <div class="p_container">
+          <p>Format</p>
+          <p class="p_content">Fixed <a href="#" style="text-decoration: underline !important;">What's This?</a></p>
+        </div>
+
+        <div class="p_container">
+          <p>Print ISBN</p>
+          <p class="p_content">9780357391372, 0357391373</p>
+        </div>
+        <div class="p_container">
+          <p>eText ISBN</p>
+          <p class="p_content">
+            9780357122822, 0357122828</p>
+        </div>
+        <div class="p_container">
+          <p>Edition</p>
+          <p class="p_content">100th</p>
+        </div>
+        <div class="p_container">
+          <p>Copyright</p>
+          <p class="p_content">2023</p>
+        </div>
+        <div class="">
+          <p class="p_content">For Sale in US* Only <i class="fa-solid fa-info" style="border-radius: 100%; padding: 3px 8px; border: 1px solid rgba(0, 0, 0, 0.644);margin-top: 10px;"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="item_content_order">
+      <h2>Rent or Buy</h2>
+      <div class="order_content">
+        <form action="#">
+          <label class="radio_container" for="option1">
+            <input type="radio" name="option" value="1" id="option1">
+            <span>Option 1</span>
+            <span class="radio_price">$49.49</span>
+          </label>
+          <label class="radio_container" for="option2">
+            <input type="radio" name="option" value="2" id="option2">
+            <span>Option 2</span>
+            <span class="radio_price">$49.49</span>
+          </label>
+
+          <label class="radio_container" for="option3">
+            <input type="radio" name="option" value="3" id="option3">
+            <span>Option 3</span>
+            <span class="radio_price">$49.49</span>
+          </label>
+        </form>
+        <div class="total-wrap">
+          <div class="expiration-text">
+            Expires on: Jan 3, 2024
+          </div>
+          <div class="savings-wrap">
+            Savings $170.46
+          </div>
+          <div class="total-price">
+            $49.49 USD
+          </div>
+          <button id="orderBtn">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs_container">
+    <div class="tabs_header">
+      <button class="tabs_btn active" data-tab-index="1">Details</button>
+      <button class="tabs_btn" data-tab-index="2">Table of Contents</button>
+      <button class="tabs_btn" data-tab-index="3">Accessibility</button>
+      <button class="tabs_btn comments" data-tab-index="4">
+        Comments
+        <span>3</span>
+      </button>
+    </div>
+    <div class="tabs_contents">
+      <div class="tabs_content active" data-tab-content="1">
+        <div class="detail">
+          <div style="width: 100%;">
+            <h2 style="font-weight: 500;margin-bottom: 10px;font-size: 2rem;">Social Psychology</h2>
+            <h3 style="line-height: 1.8em;margin-bottom: 10px;font-size: 24px;"><strong>Description:</strong></h3>
+            <p style="color: #2f2f39;font-weight: 400;line-height: 1.6;font-size: 20px;">Kassin/Fein/Markus' SOCIAL PSYCHOLOGY, 11th Edition, brings chapter concepts to life through a unique emphasis on current events in sports, music, entertainment, technology, social media, business, world politics and more. Combining scholarship with real-world illustrations, it helps you understand the field of social psychology through engaging connections to everyday life. Integrating both classic and emerging research, the text delivers comprehensive coverage of social cognition and applications to law, business, and health and well-being. In addition, author Hazel Rose Markus, a respected researcher in the study of cultural psychology, integrates culture and diversity topics into every chapter.</p>
+            <p style="color: #2f2f39;font-weight: 400;line-height: 1.6;font-size: 20px;">Important Notice: Media content referenced within the product description or the product text may not be available in the ebook version.</p>
+          </div>
+          <div style="width: 95%;">
+            <span style="font-style:italic;">This is a digital product.</span>
+            <h3 style="line-height: 1.8em;margin-bottom: 10px;font-size: 1.25em;">Additional ISBNs:</h3>
+            <p style="color: #2f2f39;font-weight: 400;line-height: 1.6;font-size: 20px;">0357122844, 0357391373, 0357713575, 0357299043, 9780357122846, 9780357391372, 9780357713570, 9780357299043, 0357122828, 0357704355, 9780357122822, 9780357704356</p>
+            <h3 style="line-height: 1.8em;margin-bottom: 10px;font-size: 20px;">Subjects</h3>
+            <a href="" style="text-decoration: underline !important;">Education,</a> <br>
+            <a href="" style="text-decoration: underline !important;">Teaching Methods & Materials</a>
+            <h3 style="line-height: 1.8em;margin: 10px 0;font-size: 1.25em;">Cengage Learning US Return Policy</h3>
+            <p style="color: #2f2f39;font-weight: 400;line-height: 1.6;font-size: 20px;">Easy <strong>14-day</strong> returns when <a href=""  style="text-decoration: underline !important;">these requirements</a> are met. <a href="" style="text-decoration: underline !important;">View all policies.</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="tabs_content" data-tab-content="2">
+        <h2>Brief Contents</h2>
+        <p class="part1">
+          Contents <br>
+          Preface<br>
+          About the Authors<br>
+          Part 1: Introduction<br>
+          Chapter 1: What Is Social Psychology?<br>
+          1-1 The Social Animal<br>
+          1-2 What Is Social Psychology?<br>
+          1-3 A Brief History of Social Psychology<br>
+          1-4 Social Psychology Today: What Is Trending Now?<br>
+          1-5 Review<br>
+          Key Terms<br>
+          Chapter 2: Doing Social Psychology Research<br>
+          2-1 Why Should You Learn about Research Methods?<br>
+          2-2 Developing Ideas: Beginning the Research Process<br>
+          2-3 Refining Ideas: Defining and Measuring Social Psychological Variables<br>
+          2-4 Testing Ideas: Research Designs<br>
+          2-5 Ethics, Values, and New Research Standards and Practices<br>
+          2-6 Review<br>
+          Key Terms<br>
+          Part 2: Social Perception<br>
+          Chapter 3: The Social Self<br>
+          3-1 The Self-Concept<br>
+          3-2 Self-Esteem<br>
+          3-3 Self-Presentation<br>
+        </p>
+        <p class="part2">
+          Contents <br>
+          Preface<br>
+          About the Authors<br>
+          Part 1: Introduction<br>
+          Chapter 1: What Is Social Psychology?<br>
+          1-1 The Social Animal<br>
+          1-2 What Is Social Psychology?<br>
+          1-3 A Brief History of Social Psychology<br>
+          1-4 Social Psychology Today: What Is Trending Now?<br>
+          1-5 Review<br>
+          Key Terms<br>
+          Chapter 2: Doing Social Psychology Research<br>
+          2-1 Why Should You Learn about Research Methods?<br>
+          2-2 Developing Ideas: Beginning the Research Process<br>
+          2-3 Refining Ideas: Defining and Measuring Social Psychological Variables<br>
+          2-4 Testing Ideas: Research Designs<br>
+          2-5 Ethics, Values, and New Research Standards and Practices<br>
+          2-6 Review<br>
+          Key Terms<br>
+          Part 2: Social Perception<br>
+          Chapter 3: The Social Self<br>
+          3-1 The Self-Concept<br>
+          3-2 Self-Esteem<br>
+          3-3 Self-Presentation<br>
+        </p>
+        <button class="readMore">Read More</button>
+      </div>
+      <div class="tabs_content" data-tab-content="3">
+        <p>The publisher of this title has not provided any details on the accessibility features that may be included. You should contact them for more information.</p>
+      </div>
+
+
+      <div class="tabs_content comments" data-tab-content="4">
+        <div class="container bootdey" style="padding: 0; margin: 0;width: 100%;max-width: 100% !important;">
+          <div class="col-md-12 bootstrap snippets" style="padding: 0;">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0;">
+                <textarea class="form-control" rows="2" placeholder="Put your comments here" style="background: white;border: #1b1b2675 1px solid;padding: 4px;border-radius: 4px;min-height: 100px;"></textarea>
+                <div class="mar-top clearfix">
+                  <button class="btn btn-sm btn-primary pull-right" type="submit" style="margin-left: auto;
+                display: inherit;"><i class="fa fa-pencil fa-fw"></i>Add comment</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="panel" style="border-top: #1b1b265b 1px solid;">
+              <h2 style="margin-bottom: 15px;">Latest Comments</h2>
+              <div class="panel-body">
+                <!-- Newsfeed Content -->
+                <!--===================================================-->
+                <div class="media-block">
+                  <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar1.png"></a>
+                  <div class="media-body">
+                    <div class="mar-btm">
+                      <a href="#" class="btn-link text-semibold media-heading box-inline">Lisa D.</a>
+                      <p class="text-muted text-sm">11 min ago</p>
+                    </div>
+                    <p>consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    <div class="pad-ver">
+                      <div class="btn-group">
+                        <a class="btn btn-sm btn-default btn-hover-success" href="#"><i class="fa fa-thumbs-up"></i></a>
+                        <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                      </div>
+                      <a class="btn btn-sm btn-default btn-hover-primary" href="#">Reply</a>
+                    </div>
+                    <hr>
+
+                    <!-- Comments -->
+                    <div>
+                      <div class="media-block">
+                        <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+                        <div class="media-body">
+                          <div class="mar-btm">
+                            <a href="#" class="btn-link text-semibold media-heading box-inline">Bobby Marz</a>
+                            <p class="text-muted text-sm">7 min ago</p>
+                          </div>
+                          <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                          <div class="pad-ver">
+                            <div class="btn-group">
+                              <a class="btn btn-sm btn-default btn-hover-success" href="#"><i class="fa fa-thumbs-up"></i></a>
+                              <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                            </div>
+                            <a class="btn btn-sm btn-default btn-hover-primary" href="#">Reply</a>
+                          </div>
+                          <hr>
+                        </div>
+                      </div>
+
+                      <div class="media-block">
+                        <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar3.png">
+                        </a>
+                        <div class="media-body">
+                          <div class="mar-btm">
+                            <a href="#" class="btn-link text-semibold media-heading box-inline">Lucy Moon</a>
+                            <p class="text-muted text-sm">2 min ago</p>
+                          </div>
+                          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate ?</p>
+                          <div class="pad-ver">
+                            <span class="tag tag-sm"><i class="fa fa-heart text-danger"></i> 250 Likes</span>
+                            <div class="btn-group">
+                              <a class="btn btn-sm btn-default btn-hover-success" href="#"><i class="fa fa-thumbs-up"></i></a>
+                              <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                            </div>
+                            <a class="btn btn-sm btn-default btn-hover-primary" href="#">Reply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--===================================================-->
+                <!-- End Newsfeed Content -->
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="pdp_page__content dark">
+        <div class="pdp_page__content__wrap" style="margin-bottom: 0;">
+          <div class="features_component limit-width">
+            <h2>eTextbook Features</h2>
+            <ul>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/packs/static/PDP/TabContainers/ETextbookFeatures/images/icon-instant-access-17a5866ec830ac648ca7.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Instant Access</strong></p>
+                    <p>Purchase and read your book immediately</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/packs/static/PDP/TabContainers/ETextbookFeatures/images/icon-read-aloud-dcfb5f99b0f3069cd8f7.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Read Aloud</strong></p>
+                    <p>Listen and follow along as Bookshelf reads to you</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/packs/static/PDP/TabContainers/ETextbookFeatures/images/icon-read-offline-25a1b90296b08c59b3b0.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Read Offline</strong></p>
+                    <p>Access your eTextbook anytime and anywhere</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/packs/static/PDP/TabContainers/ETextbookFeatures/images/icon-study-tools-bf8f72d7ff260eb28d24.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Study Tools</strong></p>
+                    <p>Built-in study tools like highlights and more</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="how_to_video">
+            <h3 class="u-align--center">How It Works</h3>
+            <!-- <div class="video-wrapper-placeholder"></div> -->
+            <div class="video-wrapper show">
+              <div
+                      class="react-player"
+                      data-testid="react-video-player"
+                      style="width: 100%; height: 100%"
+              >
+                <div style="width: 100%; height: 100%">
+                  <iframe
+                          frameborder="0"
+                          allowfullscreen="1"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          title="Purchasing Digital Textbooks on VitalSource"
+                          width="100%"
+                          height="100%"
+                          src="https://www.youtube.com/embed/lsytl2QLPMA?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.vitalsource.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
+                          id="widget2"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pdp_page__content dark">
+        <div class="pdp_page__content__wrap" style="margin-top: 0;">
+          <div class="about_bookshelf_container__intro">
+            <img class="img-fluid bookshelf-logo" alt="Bookshelf by Vitalsource" src="https://www.vitalsource.com/assets/bookshelflogo-3fbd195617eda65d0f4b788c598feddcc92ad0a0ee3c71822ab98519682d543a.svg">
+            <p style="font-size: 20px;margin-top: 20px;">
+              <strong>The world’s #1 eTextbook reader for students.</strong>
+              VitalSource is the leading provider of online textbooks and course
+              materials. More than 15 million users have used our Bookshelf
+              platform over the past year to improve their learning experience and
+              outcomes. With anytime, anywhere access and built-in tools like
+              highlighters, flashcards, and study groups, it’s easy to see why so
+              many students are going digital with Bookshelf.
+            </p>
+          </div>
+          <div class="features_component limit-width">
+            <ul>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/assets/about_bookshelf/icon-titles-available-b364f642cc90de7ed8acae0d5f55c10f38ac7b6f778f61c6e20a82ae0504f677.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Over 2.7 million</strong></p>
+                    <p>titles available from more than 1,000 publishers</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/assets/about_bookshelf/icon-customer-reviews-aeaa439437e605baccefed92d50ea4d2ce9d6c8c5a699d297fa73058f69e5d3f.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Over 65,000</strong></p>
+                    <p>customer reviews with an average rating of 9.5</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/assets/about_bookshelf/icon-pages-viewed-0b569c11a6b8dc3ae91ffd02e3d8a919259f7c19b905fc7c36bb8e63fb2dc659.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Over 5 billion</strong></p>
+                    <p>digital pages viewed over the past 12 months</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="feature__container">
+                  <div class="feature__container__image">
+                    <img
+                            alt=""
+                            src="https://www.vitalsource.com/assets/about_bookshelf/icon-institutions-acdd0df2449a82c1f0b14d8196c9b3ce2baa57f5dc72e3f06aa0ff50fb968896.svg"
+                    />
+                  </div>
+                  <div class="feature__container__box">
+                    <p><strong>Over 7,000</strong></p>
+                    <p>institutions using Bookshelf across 241 countries</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
     </div>
-    <!-- pageheader close -->
+  </div>
+
+  <div class="back-to-top">
+    <a class="btn vst-btn--orange-outline u-push--ends" href="#" id="scroll-to-top">Back to Top</a>
+  </div>
+
+
+
+</main>
+
+
+<!-- footer section start -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+        <!-- footer widget  -->
+        <div class="footer-widget mb-5 mb-lg-0">
+          <div class="mb-4"><img src="../assets/images/spacely-logo-white.svg" alt=""></div>
+          <p class="mb-3">Welcome to the largest office space marketplace in the world. This is your one-stop
+            shop for renting coworking space, serviced offices, shared office space and virtual offices in
+            World. </p>
+          <div class="mb-2">
+            <p class="mb-1 font-weight-bold">1800 123 345 789</p>
+            <p class="">3 Doris St, North Sydney, NSW 2060</p>
+          </div>
+          <div class="social-links">
+            <a href="#!"><i class="fab fa-facebook-square  mr-2 "></i></a>
+            <a href="#!"><i class="fab fa-twitter-square  mr-2"></i></a>
+            <a href="#!"><i class="fab fa-linkedin  mr-2 "></i></a>
+            <a href="#!"><i class="fab fa-pinterest-square   mr-2"></i></a>
+            <a href="#!"><i class="fab fa-instagram "></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- footer widget  -->
+      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="footer-widget mb-5 mb-lg-0">
+          <h3 class="footer-widget-title">Type of spaces</h3>
+          <div class="footer-links">
+            <ul class="list-group list-unstyled">
+              <li class="list-group-item"><a href="#!" class="list-group-link">Coworking space</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Meeting space</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Office space</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Retail Space</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Event space</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Virtual Space</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- footer widget  -->
+      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="footer-widget mb-5 mb-lg-0">
+          <h3 class="footer-widget-title">Company</h3>
+          <div class="footer-links">
+            <ul class="list-group list-unstyled">
+              <li class="list-group-item"><a href="#!" class="list-group-link">About us</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Careers</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Clients</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Team</a> </li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Help Center</a></li>
+              <li class="list-group-item"><a href="#!" class="list-group-link">Press</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- footer widget  -->
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="footer-widget mb-5 mb-lg-0">
+          <h3 class="footer-widget-title">Newsletter</h3>
+          <form>
+            <div class="form-group mb-2">
+              <label for="email" class="sr-only"> </label>
+              <input type="password" class="form-control border-0" id="email" placeholder="Email address here">
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+        <!-- footer widget  -->
+      </div>
+    </div>
+  </div>
+  <!-- tiny footer  -->
+  <div class="tiny-footer">
     <div class="container">
       <div class="row">
-        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
-          <!-- breadcrumb start -->
-          <div class="custom-breadcrumb">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active">Layout Grid & List</li>
-              </ol>
-            </nav>
-          </div>
-          <!-- breadcrumb close -->
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <p class="mb-0">Copyright © 2020 Spacely Companies Inc. All rights reserved</p>
         </div>
-      </div>
-    </div>
-    <div class="pb-5 pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-            <div class="row">
-              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 mb-4">
-                <!-- page switcher start -->
-                <div class="page-switcher">
-                  <a href="listing-list-view.html"
-                    ><i class="fas fa-list icon-shape border p-3 rounded"></i
-                  ></a>
-                  <a href="listing-grid-view.html" class="active"
-                    ><i
-                      class="fas fa-th icon-shape border p-3 rounded bg-primary text-white"
-                    ></i
-                  ></a>
-                  <a href="listing-map-view.html"
-                    ><i
-                      class="fas fa-map-marker-alt icon-shape border p-3 rounded"
-                    ></i
-                  ></a>
-                </div>
-                <!-- page switcher close -->
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
-                <!-- select form start -->
-                <select
-                  class="select2 form-control custom-select"
-                  id="search-hide"
-                >
-                  <option selected>Default</option>
-                  <option value="1">Most Viewed</option>
-                  <option value="2">Newest Listing</option>
-                  <option value="3">Older Listing</option>
-                </select>
-                <!-- select form close -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- listing block start  -->
-                <div class="card mb-3 mb-lg-4">
-                  <div class="card-img position-relative">
-                    <a href="listing-single.html">
-                      <img
-                        src="../assets/images/listing-img-1.jpg"
-                        alt=""
-                        class="img-fluid rounded-top w-100"
-                      />
-                      <div class="card-overlay-badge badge badge-primary">
-                        Featured
-                      </div>
-                    </a>
-
-                    <a
-                      href="listing-single.html"
-                      class="badge badge-success card-overlay-category"
-                    >
-                      Office Space
-                    </a>
-                    <div class="btn-wishlist card-overlay-btn"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="mb-2">
-                      <a href="listing-single.html">
-                        <h3 class="h5 mb-1 text-truncate">
-                          Heading for Office Space Title
-                        </h3></a
-                      >
-                      <p class="font-14">Ahmedabad, Gujarat, India</p>
-                    </div>
-                    <div class="mb-3 font-12">
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star-half text-warning"></span>
-                      <a
-                        href="listing-single.html"
-                        class="badge badge-success ml-1"
-                        >4.5</a
-                      >
-                    </div>
-                    <div class="">
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <div class="font-weight-medium">
-                          <span class="font-12">Monthly</span> <br />
-                          <span class="font-14 text-dark">$2250</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">People</span> <br />
-                          <span class="font-14 text-dark">12</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">Sq.Ft</span> <br />
-                          <span class="font-14 text-dark">1200</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- listing block close  -->
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- listing block start  -->
-                <div class="card mb-3 mb-lg-4">
-                  <div class="card-img position-relative">
-                    <a href="listing-single.html">
-                      <img
-                        src="../assets/images/listing-img-1.jpg"
-                        alt=""
-                        class="img-fluid rounded-top w-100"
-                    /></a>
-                    <a
-                      href="listing-single.html"
-                      class="badge badge-secondary card-overlay-category"
-                    >
-                      Meeting Space
-                    </a>
-                    <div class="btn-wishlist card-overlay-btn"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="listing-content-head">
-                      <a href="listing-single.html"
-                        ><h3 class="h5 mb-1 text-truncate">
-                          Meeting Office Space Title
-                        </h3></a
-                      >
-                      <p class="font-14">Surat, Gujarat, India</p>
-                    </div>
-                    <div class="mb-3 font-12">
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <a
-                        href="listing-single.html"
-                        class="badge badge-success ml-1"
-                        >5.0</a
-                      >
-                    </div>
-                    <div class="">
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <div class="font-weight-medium">
-                          <span class="font-12">Hourly</span> <br />
-                          <span class="font-14 text-dark">$50</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">People</span> <br />
-                          <span class="font-14 text-dark">3</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">Sq.Ft</span> <br />
-                          <span class="font-14 text-dark">360</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- listing block close  -->
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- listing block start  -->
-                <div class="card mb-3 mb-lg-4">
-                  <div class="card-img position-relative">
-                    <a href="listing-single.html">
-                      <img
-                        src="../assets/images/listing-img-1.jpg"
-                        alt=""
-                        class="img-fluid rounded-top w-100"
-                    /></a>
-                    <a
-                      href="listing-single.html"
-                      class="badge badge-danger card-overlay-category"
-                    >
-                      Coworking Space
-                    </a>
-                    <div class="btn-wishlist card-overlay-btn"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="listing-content-head">
-                      <a href="listing-single.html">
-                        <h3 class="h5 mb-1 text-truncate">
-                          Coworking Office Space Title
-                        </h3></a
-                      >
-                      <p class="font-14">Vadodara, Gujarat, India</p>
-                    </div>
-                    <div class="mb-3 font-12">
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-light"></span>
-                      <a
-                        href="listing-single.html"
-                        class="badge badge-success ml-1"
-                        >4.0</a
-                      >
-                    </div>
-                    <div class="">
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <div class="font-weight-medium">
-                          <span class="font-12">Weekly</span> <br />
-                          <span class="font-14 text-dark">$250</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">People</span> <br />
-                          <span class="font-14 text-dark">24</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">Sq.Ft</span> <br />
-                          <span class="font-14 text-dark">2200</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- listing block close  -->
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- listing block start  -->
-                <div class="card mb-3 mb-lg-4">
-                  <div class="card-img position-relative">
-                    <a href="listing-single.html">
-                      <img
-                        src="../assets/images/listing-img-1.jpg"
-                        alt=""
-                        class="img-fluid rounded-top w-100"
-                    /></a>
-                    <a
-                      href="listing-single.html"
-                      class="badge badge-info card-overlay-category"
-                    >
-                      Meeting Space
-                    </a>
-                    <div class="btn-wishlist card-overlay-btn"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="listing-content-head">
-                      <a href="listing-single.html"
-                        ><h3 class="h5 mb-1 text-truncate">
-                          Meeting Office Space Title
-                        </h3></a
-                      >
-                      <p class="font-14">Vadodara, Gujarat, India</p>
-                    </div>
-                    <div class="mb-3 font-12">
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-light"></span>
-                      <a
-                        href="listing-single.html"
-                        class="badge badge-success ml-1"
-                        >4.0</a
-                      >
-                    </div>
-                    <div class="">
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <div class="font-weight-medium">
-                          <span class="font-12"> Weekly</span> <br />
-                          <span class="font-14 text-dark">$250</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">People</span> <br />
-                          <span class="font-14 text-dark">24</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">Sq.Ft</span> <br />
-                          <span class="font-14 text-dark">2200</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- listing block close  -->
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- listing block start  -->
-                <div class="card mb-3 mb-lg-4">
-                  <div class="card-img position-relative">
-                    <a href="listing-single.html">
-                      <img
-                        src="../assets/images/listing-img-1.jpg"
-                        alt=""
-                        class="img-fluid rounded-top w-100"
-                    /></a>
-                    <a
-                      href="listing-single.html"
-                      class="badge badge-primary card-overlay-category"
-                    >
-                      Coworking Space
-                    </a>
-                    <div class="btn-wishlist card-overlay-btn"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="listing-content-head">
-                      <a href="listing-single.html">
-                        <h3 class="h5 mb-1 text-truncate">
-                          Coworking Office Space Title
-                        </h3></a
-                      >
-                      <p class="font-14">Vadodara, Gujarat, India</p>
-                    </div>
-                    <div class="mb-3 font-12">
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-light"></span>
-                      <a
-                        href="listing-single.html"
-                        class="badge badge-success ml-1"
-                        >4.0</a
-                      >
-                    </div>
-                    <div class="">
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <div class="font-weight-medium">
-                          <span class="font-12">Weekly</span> <br />
-                          <span class="font-14 text-dark">$250</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">People</span> <br />
-                          <span class="font-14 text-dark">24</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">Sq.Ft</span> <br />
-                          <span class="font-14 text-dark">2200</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- listing block close  -->
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                <!-- listing block start  -->
-                <div class="card mb-3 mb-lg-4">
-                  <div class="card-img position-relative">
-                    <a href="listing-single.html">
-                      <img
-                        src="../assets/images/listing-img-1.jpg"
-                        alt=""
-                        class="img-fluid rounded-top w-100"
-                    /></a>
-                    <a
-                      href="listing-single.html"
-                      class="badge badge-success card-overlay-category"
-                    >
-                      Office Space
-                    </a>
-                    <div class="btn-wishlist card-overlay-btn"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="listing-content-head">
-                      <a href="listing-single.html"
-                        ><h3 class="h5 mb-1 text-truncate">
-                          Heading for Office Space Title
-                        </h3></a
-                      >
-                      <p class="font-14">Vadodara, Gujarat, India</p>
-                    </div>
-                    <div class="mb-3 font-12">
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-warning"></span>
-                      <span class="fas fa-star text-light"></span>
-                      <a
-                        href="listing-single.html"
-                        class="badge badge-success ml-1"
-                        >4.0</a
-                      >
-                    </div>
-                    <div class="">
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <div class="font-weight-medium">
-                          <span class="font-12"> Weekly</span> <br />
-                          <span class="font-14 text-dark">$250</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">People</span> <br />
-                          <span class="font-14 text-dark">24</span>
-                        </div>
-                        <div class="font-weight-medium">
-                          <span class="font-12">Sq.Ft</span> <br />
-                          <span class="font-14 text-dark">2200</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- listing block close  -->
-              </div>
-
-              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3">
-                <!-- pagination start -->
-
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#">Previous</a>
-                  </li>
-                  <li class="page-item active">
-                    <a class="page-link" href="#">1</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                  </li>
-                </ul>
-
-                <!-- pagination close -->
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-            <!-- filter sidebar -->
-            <div class="card">
-              <div class="card-body">
-                <h3 class="mb-0 h4">
-                  <span class="p text-primary mr-2"
-                    ><i class="fas fa-sliders-h"></i></span
-                  >Filter
-                </h3>
-              </div>
-              <!-- filter widget -->
-              <div class="card-body border-top">
-                <a
-                  class="d-block h5 mb-0"
-                  data-toggle="collapse"
-                  href="#collapseExample"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Price <i class="fas fa-angle-down ml-2 float-right"></i>
-                </a>
-                <div class="collapse show" id="collapseExample">
-                  <div class="py-3">
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck1"
-                    />
-                    <label class="custom-control-label" for="customCheck1"
-                      >$0 - $100
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck2"
-                    />
-                    <label class="custom-control-label" for="customCheck2"
-                      >$100 - $200
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck3"
-                    />
-                    <label class="custom-control-label" for="customCheck3"
-                      >$200 - $300
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck4"
-                    />
-                    <label class="custom-control-label" for="customCheck4"
-                      >$300 - $400
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck5"
-                    />
-                    <label class="custom-control-label" for="customCheck5"
-                      >$400 - $500
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck6"
-                    />
-                    <label class="custom-control-label" for="customCheck6"
-                      >$500 - $600
-                    </label>
-                  </div>
-                </div>
-                </div>
-              </div>
-              <!-- filter widget -->
-              <div class="card-body border-top">
-                <a
-                  class="mb-0 d-block h5"
-                  data-toggle="collapse"
-                  href="#collapseExample2"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample2"
-                >
-                  Capacity <i class="fas fa-angle-down ml-2 float-right"></i>
-                </a>
-                <div class="collapse show" id="collapseExample2">
-                  <div class="py-3">
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck7"
-                    />
-                    <label class="custom-control-label" for="customCheck7"
-                      >1 Person
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck8"
-                    />
-                    <label class="custom-control-label" for="customCheck8"
-                      >2 - 5 Person
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck9"
-                    />
-                    <label class="custom-control-label" for="customCheck9"
-                      >5 - 10 Person
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck10"
-                    />
-                    <label class="custom-control-label" for="customCheck10"
-                      >10 - 15 Person
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck11"
-                    />
-                    <label class="custom-control-label" for="customCheck11"
-                      >15 - 25 person
-                    </label>
-                  </div>
-                </div>
-                </div>
-              </div>
-              <!-- filter widget -->
-              <div class="card-body border-top">
-                <a
-                  class="mb-0 d-block h5"
-                  data-toggle="collapse"
-                  href="#collapseExample3"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="collapseExample3"
-                >
-                  Size <i class="fas fa-angle-down ml-2 float-right"></i>
-                </a>
-                <div class="collapse show" id="collapseExample3">
-                <div class="py-3">
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck12"
-                    />
-                    <label class="custom-control-label" for="customCheck12"
-                      >100 Sq.Ft
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck13"
-                    />
-                    <label class="custom-control-label" for="customCheck13"
-                      >100 Sq.Ft - 200 Sq.Ft
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck14"
-                    />
-                    <label class="custom-control-label" for="customCheck14"
-                      >200 Sq.Ft - 300 Sq.Ft
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck15"
-                    />
-                    <label class="custom-control-label" for="customCheck15"
-                      >300 Sq.Ft - 400 Sq.Ft
-                    </label>
-                  </div>
-                  <div class="custom-control custom-checkbox">
-                    <input
-                      type="checkbox"
-                      class="custom-control-input"
-                      id="customCheck16"
-                    />
-                    <label class="custom-control-label" for="customCheck16"
-                      >400 Sq.Ft - 500 Sq.Ft
-                    </label>
-                  </div>
-                </div>
-                </div>
-              </div>
-              <!-- filter widget -->
-              <div class="card-body border-top">
-                <a href="#" class="btn btn-primary btn-block">Search</a>
-              </div>
-            </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="tiny-footer-links">
+            <a href="#!">Privacy</a>
+            <a href="#!">Terms</a>
+            <a href="#!">Cookies</a>
+            <a href="#!">FAQ</a>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-     <!-- footer section start -->
-     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-                    <!-- footer widget  -->
-                    <div class="footer-widget mb-5 mb-lg-0">
-                        <div class="mb-4"><img src="../assets/images/spacely-logo-white.svg" alt=""></div>
-                        <p class="mb-3">Welcome to the largest office space marketplace in the world. This is your one-stop shop for renting coworking space, serviced offices, shared office space and virtual offices in World. </p>
-                        <div class="mb-2">
-                            <p class="mb-1 font-weight-bold">1800 123 345 789</p>
-                            <p class="">3 Doris St, North Sydney, NSW 2060</p>
-                        </div>
-                        <div class="social-links">
-                            <a href="#!"><i class="fab fa-facebook-square  mr-2 "></i></a>
-                            <a href="#!"><i class="fab fa-twitter-square  mr-2"></i></a>
-                            <a href="#!"><i class="fab fa-linkedin  mr-2 "></i></a>
-                            <a href="#!"><i class="fab fa-pinterest-square   mr-2"></i></a>
-                            <a href="#!"><i class="fab fa-instagram "></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer widget  -->
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                    <div class="footer-widget mb-5 mb-lg-0">
-                        <h3 class="footer-widget-title">Type of spaces</h3>
-                        <div class="footer-links">
-                            <ul class="list-group list-unstyled">
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Coworking space</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Meeting space</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Office space</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Retail Space</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Event space</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Virtual Space</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer widget  -->
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                    <div class="footer-widget mb-5 mb-lg-0">
-                        <h3 class="footer-widget-title">Company</h3>
-                        <div class="footer-links">
-                            <ul class="list-group list-unstyled">
-                                <li class="list-group-item"><a href="#!" class="list-group-link">About us</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Careers</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Clients</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Team</a> </li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Help Center</a></li>
-                                <li class="list-group-item"><a href="#!" class="list-group-link">Press</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- footer widget  -->
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                    <div class="footer-widget mb-5 mb-lg-0">
-                        <h3 class="footer-widget-title">Newsletter</h3>
-                        <form>
-                            <div class="form-group mb-2">
-                                <label for="email" class="sr-only"> </label>
-                                <input type="password" class="form-control border-0" id="email" placeholder="Email address here">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
-                        </form>
-                    </div>
-                    <!-- footer widget  -->
-                </div>
-            </div>
-        </div>
-        <!-- tiny footer  -->
-        <div class="tiny-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <p class="mb-0">Copyright © 2020 Spacely Companies Inc. All rights reserved</p>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="tiny-footer-links">
-                            <a href="#!">Privacy</a>
-                                <a href="#!">Terms</a>
-                               <a href="#!">Cookies</a>
-                               <a href="#!">FAQ</a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- footer section close  -->
-    </div>
-    <!-- footer section close -->
+  </div>
+  <!-- footer section close  -->
+</footer>
+<!-- footer section close -->
 
-    <!-- ============================================================== -->
-    <!-- end main wrapper -->
-    <!-- ============================================================== -->
-    <!-- Libs JS -->
-        <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
-        <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/libs/select2/dist/js/select2.full.min.js"></script>
-        <script src="../assets/libs/select2/dist/js/select2.min.js"></script>
-        <script src="../assets/libs/jquery-raty-js/lib/jquery.raty.js"></script>
-        <script src="../assets/libs/datatables/media/js/jquery.dataTables.min.js"></script>
-        <script src="../assets/libs/dataTables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-        <script src="../assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-        <script src="../assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-        <script src="../assets/libs/jquery.easing/jquery.easing.min.js"></script>
-        <script src="../assets/libs/prismjs/prism.js"></script>
-        <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
-        <script src="../assets/libs/slick-carousel/slick/slick.min.js"></script>
-        <script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
-        <script src="../assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
-        <script src="../assets/libs/leaflet/dist/leaflet.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
-        <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
+<!-- ============================================================== -->
+<!-- end main wrapper -->
+<!-- ============================================================== -->
+<!-- Libs JS -->
+
+<script>
+
+  let shareBtn = document.querySelector('.social-network button')
+  let socialNetwork = document.querySelector('.social-network')
+
+  shareBtn.onclick = function() {
+    if (socialNetwork.classList.contains('show')) {
+      socialNetwork.classList.remove('show')
+    } else {
+      socialNetwork.classList.add('show')
+    }
+
+  }
+
+  // Get the modal
+  var modalOrder = document.getElementById("modalOrder");
+  var modalShadow = document.querySelector('#modalOrder .shadow')
+  var orderBtn = document.querySelector('#orderBtn')
+  var close = document.querySelector('#modalOrder .close')
+  var cancelBtnCart = document.querySelector('#cancelBtnCart')
+  var addToCartBtn = document.querySelector('#addToCartBtn')
+
+
+  orderBtn.onclick = function() {
+    modalOrder.style.display = "flex";
+  }
+
+  modalShadow.onclick = function() {
+    modalOrder.style.display = "none";
+  }
+
+  // Handle adding to cart👇
+  addToCartBtn.onclick = function() {
+    modalOrder.style.display = "none";
+  }
+
+  cancelBtnCart.onclick = function() {
+    modalOrder.style.display = "none";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  close.onclick = function() {
+    modalOrder.style.display = "none";
+  }
+
+  document.getElementById('scroll-to-top').addEventListener('click', function(e){
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // Get the modal
+  var modal = document.getElementById("imgViewModal");
+  var modalShadow = document.querySelector('.modal .shadow')
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("bookImg");
+  var overflow = document.querySelector(".overflow");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  overflow.addEventListener('click', function(){
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+  })
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  modalShadow.onclick = function() {
+    modal.style.display = "none";
+  }
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+</script>
+
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/select2/dist/js/select2.full.min.js"></script>
+<script src="../assets/libs/select2/dist/js/select2.min.js"></script>
+<script src="../assets/libs/jquery-raty-js/lib/jquery.raty.js"></script>
+<script src="../assets/libs/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="../assets/libs/dataTables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="../assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="../assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../assets/libs/jquery.easing/jquery.easing.min.js"></script>
+<script src="../assets/libs/prismjs/prism.js"></script>
+<script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../assets/libs/slick-carousel/slick/slick.min.js"></script>
+<script src="../assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+<script src="../assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="../assets/libs/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
 
 
 
-    <!-- Theme JS -->
-    <script src="../assets/js/theme.min.js"></script>
+
+<script type="text/javascript" defer>
+  document.addEventListener('DOMContentLoaded', function() {
+    let tabButtons = document.querySelectorAll('.tabs_btn');
+    let tabContents = document.querySelectorAll('.tabs_content');
+
+    for(let i = 0; i < tabButtons.length; i++) {
+      tabButtons[i].addEventListener('click', function(){
+        // remove the active class from all buttons and tab contents
+        tabButtons.forEach(function(tabButton){
+          tabButton.classList.remove('active');
+        });
+
+        tabContents.forEach(function(tabContent){
+          tabContent.classList.remove('active');
+        });
+
+        // add the active class to the clicked button
+        this.classList.add('active');
+
+        // add the active class to the corresponding tab content
+        let tabIndex = this.getAttribute('data-tab-index');
+        let targetContent = document.querySelector('.tabs_content[data-tab-content="' + tabIndex + '"]');
+        targetContent.classList.add('active');
+      });
+    }
+  });
+
+</script>
+
+
+<!-- Theme JS -->
+<script src="../assets/js/theme.min.js"></script>
+</body>
+</html>
